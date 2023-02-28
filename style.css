@@ -565,11 +565,7 @@ header
   
   /*-----------------------*/
   
-  h3 {
-    margin-bottom: 5px;
-    font-size: 15px;
-    font-weight: bold;
-  }
+
 
   
   .scene {
@@ -1136,3 +1132,104 @@ header
     }
   }
 /*------------------------------------------------------------------------------------------------*/
+.pro-container
+{
+    position: relative;
+    background-size: cover;
+    padding: 20px 10px;
+    height: 500px;
+    width: 900px;
+    margin-left: 150px;
+    margin-top: 170px;
+    margin-bottom: 300px;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 2px;
+}
+.project-container .mac .imgbx img
+{
+  position: absolute;
+  top: 153px;
+  left: 43px;
+  width: 373px;
+  height: 225px;
+  transition: 5s;
+  z-index: 2;
+}
+.pro-left-side
+{
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+.mac-project-des p
+{
+  margin-top: 100px;
+  font-size: 30px;
+  text-align: justify;
+}
+
+.project-container .apple .imgbx img
+{
+  position: absolute;
+  top: 179px;
+  left: 72px;
+  width: 175px;
+  height: 278px;
+  transition: 5s;
+  z-index: 2;
+}
+.apple-project-des p
+{
+   margin-top: 100px;
+  font-size: 30px;
+  text-align: justify;
+}
+
+
+.scroll {
+  position: sticky;
+  font-size: 4rem;
+  width: 400vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  animation: faux-scroll both linear;
+  animation-timeline: --horizontal;
+  animation-delay: enter 100%;
+  animation-end-delay: exit 0%;
+}
+.scroll:nth-of-type(2) {
+  view-timeline-name: --horizontal;
+  height: 400vh;
+  scroll-snap-align: start;
+}
+
+@keyframes faux-scroll {
+  to {
+    transform: translateX(calc(-50% + 100vw));
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

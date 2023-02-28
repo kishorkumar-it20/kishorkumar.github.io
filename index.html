@@ -20,6 +20,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projects.css">
     <script src="script.js"></script>
 </head>
 <body>
@@ -28,9 +29,9 @@
         <a href="#" class="logo">Portfolio.</a>
         <nav class="navbar">
             <a href="#" style="--i:1;" class="active">Home</a>
-            <a href="#about-skills" style="--i:2;">Skills</a>
-            <a href="#" style="--i:3;">Portfolio</a>
-            <a href="#" style="--i:4;">About</a>
+            <a href="#about" style="--i:2;">Skills</a>
+            <a href="#skill" style="--i:3;">Portfolio</a>
+            <a href="#project" style="--i:4;">About</a>
             <a href="#" style="--i:5;">Contact</a>
         </nav>
 </header>
@@ -61,7 +62,7 @@
         </div>
 </section>
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>   
-<section class="port" data-aos="fade-left">
+<section class="port" data-aos="fade-left" id="about">
     <div class="row">
         <div class="container">
             <div class="about-container">
@@ -105,7 +106,7 @@
         </div>  
     </div>
 </section>
-<section class="port" data-aos="fade-right">
+<section class="port" data-aos="fade-right" id="skill">
     <div class="skill-container">
         <div class="scene">
             <h1>Skillset</h1>
@@ -292,9 +293,53 @@
       </script>
 </section>
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
- <section>
-    
-</section > 
+ <section class="port" data-aos="fade-left" id="project" style="scroll-snap-align: center; height: 100vh; width: 100vw; scroll-snap-type: y mandatory;">
+  <h1 style="color: #ffff; font-size: 40px; margin-left: 200px;">Projects</h1>
+  <div class="scroll">
+  <div class="pro-container">
+    <div class="project-container">
+     <div class="mac">
+      <img src="mac.png" class="pro-left-side">
+      <div class="imgbx">
+        <img src="1.png">
+      </div>      
+    </div>
+    <div class="mac-project-des">
+      
+        <p>
+          Speech to text conversion is the process of converting spoken words into written texts. 
+          This process is also often called speech recognition.Speech recognition is sometimes used to describe the wider process of extracting meaning from speech, 
+          i.e. speech understanding. 
+        </p>
+      
+    </div>
+     </div>
+    </div>
+
+    <div class="pro-container">
+      <div class="project-container">
+       <div class="apple">
+        <img src="iphone.png" class="pro-left-side" style="height: 400px;width: 300px; ">
+        <div class="imgbx">
+          <img src="3.jpg">
+        </div>      
+      </div>
+      <div class="apple-project-des">
+        
+          <p>
+            Speech to text conversion is the process of converting spoken words into written texts. 
+            This process is also often called speech recognition.Speech recognition is sometimes used to describe the wider process of extracting meaning from speech, 
+            i.e. speech understanding. 
+          </p>
+        
+      </div>
+       </div>
+      </div>
+
+  </div> 
+
+  
+</section> 
 <script>
     AOS.init({
   offset: 400, 
